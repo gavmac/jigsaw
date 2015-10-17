@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta property="og:site_name" content="jigsaw.js"/>
+		<meta property="og:title" content="Jigsaw.js -  A javascript powered Jigsaw puzzle" />
+		<title>Jigsaw.js -  A javascript powered Jigsaw puzzle</title>
+		<link href="css/demo-page.css" rel="stylesheet" media="all">
+
+		<link href="kg.css" rel="stylesheet" type="text/css" />
+
+   		<script src = "jpuzzle.js" type = "text/javascript"></script>
+   		<script src = "kgfunctions.js" type = "text/javascript"></script>
+
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+	</head>
+	<body>
+
+		<!--[if lt IE 10]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<div class="main">
+			<span id="forkongithub"><a href="https://github.com/gavmac/jigsaw">Fork me on GitHub</a></span>
+
+			<h1>Jigsaw.js</h1>
+
+			<p class="intro aligncenter">This is a jigsaw puzzle game I created as a class assignment.
+				Preview the solved puzzle by clicking the "Solve it" button. Once solved mix it all up again with the "Jumble it" button.</p>
+
+			<div class="social aligncenter">
+				<div class="social-button">
+					<iframe src="http://ghbtns.com/github-btn.html?user=gavmac&repo=jigsaw&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+				</div>
+
+				<div class="social-button">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-via="GavMac2010" data-dnt="true">Tweet</a>
+
+				</div>
+
+			</div>
+
+			<div class="aligncenter">
+				<a class="button cta hvr-float-shadow" href="https://github.com/gavmac/jigsaw">Download on GitHub</a><br />
+			</div>
+
+			<div class="effects">
+				<form id="jigsaw" action="">
+
+			   <div id="puzzleGrid">
+			      <div id="grid0" class="grid"></div><div id="grid1" class="grid"></div>
+			      <div id="grid2" class="grid"></div><div id="grid3" class="grid"></div>
+			      <div id="grid4" class="grid"></div>
+			      <div id="grid5" class="grid"></div><div id="grid6" class="grid"></div>
+			      <div id="grid7" class="grid"></div><div id="grid8" class="grid"></div>
+			      <div id="grid9" class="grid"></div>
+			      <div id="grid10" class="grid"></div><div id="grid11" class="grid"></div>
+			      <div id="grid12" class="grid"></div><div id="grid13" class="grid"></div>
+			      <div id="grid14" class="grid"></div>
+			      <div id="grid15" class="grid"></div><div id="grid16" class="grid"></div>
+			      <div id="grid17" class="grid"></div><div id="grid18" class="grid"></div>
+			      <div id="grid19" class="grid"></div>
+			      <div id="grid20" class="grid"></div><div id="grid21" class="grid"></div>
+			      <div id="grid22" class="grid"></div><div id="grid23" class="grid"></div>
+			      <div id="grid24" class="grid"></div>
+			   </div>
+			   <div id="puzzlePieces">
+			      <div id="piece0" class="pieces"></div><div id="piece1" class="pieces"></div>
+			      <div id="piece2" class="pieces"></div><div id="piece3" class="pieces"></div>
+			      <div id="piece4" class="pieces"></div>
+			      <div id="piece5" class="pieces"></div><div id="piece6" class="pieces"></div>
+			      <div id="piece7" class="pieces"></div><div id="piece8" class="pieces"></div>
+			      <div id="piece9" class="pieces"></div>
+			      <div id="piece10" class="pieces"></div><div id="piece11" class="pieces"></div>
+			      <div id="piece12" class="pieces"></div><div id="piece13" class="pieces"></div>
+			      <div id="piece14" class="pieces"></div>
+			      <div id="piece15" class="pieces"></div><div id="piece16" class="pieces"></div>
+			      <div id="piece17" class="pieces"></div><div id="piece18" class="pieces"></div>
+			      <div id="piece19" class="pieces"></div>
+			      <div id="piece20" class="pieces"></div><div id="piece21" class="pieces"></div>
+			      <div id="piece22" class="pieces"></div><div id="piece23" class="pieces"></div>
+			      <div id="piece24" class="pieces"></div>
+			   </div>
+
+			   <div id="controls" class= "aligncenter">
+			      <p>
+			         <input id = "solve" type="button" value="Solve It" />
+			         <input id = "jumble" type="button" value="Jumble It" />
+			      </p>
+			      
+			   </div>
+
+   			</form>
+				
+		</div>
+
+
+			<div class="footer">
+				<div class="about aligncenter">
+					<h2>Jigsaw.js</h2>
+
+					<p>This Jigsaw was created as a class project.</p>
+
+					<p>The user is able to drag and drop objects from one location on the page to another. The grid square that the selected piece is dragged over is then highlighted to help the user identify which grid the piece will be dropped into when the mouse is released. Upon release the image then snaps into that grid piece</p>
+
+					<p>A solve it button drops the pieces into the correct grid spaces while a jumble button mixes it all up again.</p>
+
+				</div>
+			</div>
+
+			
+
+		</div>
+
+		<div class="made-by group">
+
+			<p>Made by<br /><a href="http://gavinmacken.com/" title="Gavin Macken - Freelance Web Designer &amp; Front End Developer" target="_blank">Gavin Macken - Web Designer &amp; Front End Developer</a></p>
+
+			<p class="follow"><a href="https://twitter.com/gavmac2010" class="twitter-follow-button" data-show-count="false" data-dnt="true" data-size="large">Follow @gavmac2010</a> 
+			
+		</div>
+
+		
+
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+	</body>
+</html>

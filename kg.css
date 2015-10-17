@@ -1,0 +1,67 @@
+
+
+
+
+
+#controls  {position: absolute; top: 640px; left: 175px;
+            width: 640px}
+
+input      {margin: 0 20px;
+            padding: 1em;
+            background: #dbae58;
+            border: none;
+            text-decoration: none;
+            font-weight: 700;
+            color: white;
+            } 
+
+
+div.grid   {position: absolute; width: 60px; height: 60px;
+            border: 1px solid rgb(212,212,212); background-color: white; }
+div.pieces {position: absolute; width: 60px; height: 60px;
+            border: 1px solid rgb(212,212,212); }
+
+#grid0, #grid1, #grid2, #grid3, #grid4,
+#piece0, #piece1, #piece2, #piece3, #piece4
+           {top: 320px}
+
+#grid5, #grid6, #grid7, #grid8, #grid9,
+#piece5, #piece6, #piece7, #piece8, #piece9
+           {top: 382px}
+
+#grid10, #grid11, #grid12, #grid13, #grid14,
+#piece10, #piece11, #piece12, #piece13, #piece14
+           {top: 444px}
+
+#grid15, #grid16, #grid17, #grid18, #grid19,
+#piece15, #piece16, #piece17, #piece18, #piece19
+           {top: 506px}
+
+#grid20, #grid21, #grid22, #grid23, #grid24,
+#piece20, #piece21, #piece22, #piece23, #piece24
+           {top: 568px}
+
+#grid0, #grid5, #grid10, #grid15, #grid20 
+           {left: 160px}
+#piece0, #piece5, #piece10, #piece15, #piece20 
+           {left: 510px}
+
+#grid1, #grid6, #grid11, #grid16, #grid21 
+           {left: 222px}
+#piece1, #piece6, #piece11, #piece16, #piece21 
+           {left: 572px}
+
+#grid2, #grid7, #grid12, #grid17, #grid22 
+           {left: 284px}
+#piece2, #piece7, #piece12, #piece17, #piece22 
+           {left: 634px}
+
+#grid3, #grid8, #grid13, #grid18, #grid23 
+           {left: 346px}
+#piece3, #piece8, #piece13, #piece18, #piece23 
+           {left: 696px}
+
+#grid4, #grid9, #grid14, #grid19, #grid24 
+           {left: 408px}
+#piece4, #piece9, #piece14, #piece19, #piece24 
+           {left: 758px}
